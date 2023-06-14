@@ -18,6 +18,8 @@ const ProductCard: React.FC<ProductCardProps> = ({
   price,
   imageUrl,
 }) => {
+  // i have added a white overlay to the product card cause the text wasn't shown correctly in some cases where the pictures is black
+
   const renderStars = () => {
     const roundedStars = Math.round(stars);
     const starIcons = [];

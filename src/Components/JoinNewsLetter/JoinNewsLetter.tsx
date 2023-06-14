@@ -16,7 +16,7 @@ const JoinNewsletter: React.FC = () => {
         <InputWithIcon
           className={"news-input"}
           type="email"
-          placeholder="Enter your email"
+          placeholder="Insert your mail here"
         />
         <Button className="join-newsletter-button" icon={<SvgSend></SvgSend>}>
           {" "}

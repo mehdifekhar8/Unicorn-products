@@ -14,6 +14,8 @@ export interface Product {
 }
 
 const ProductList: React.FC = () => {
+
+  // i have added a white overlay to the product card cause the text wasn't shown correctly in some cases where the pictures is black
   const { products, isLoading, error, visibleProducts, handleLoadMore } =
     useProducts();
 
