@@ -1,10 +1,11 @@
 import React from "react";
-import "./Footer.scss";
 import SvgLogo from "../../../UIAppBundle/icons/Logo";
 import SvgFooterIconOne from "../../../UIAppBundle/icons/FooterIconOne";
 import SvgFooterIconTow from "../../../UIAppBundle/icons/FooterIconTow";
 import SvgFooterIconThree from "../../../UIAppBundle/icons/FooterIconThree";
 import SvgFooterIconFour from "../../../UIAppBundle/icons/FooterIconFour";
+
+import "./Footer.scss";
 
 const Footer: React.FC = () => {
   return (

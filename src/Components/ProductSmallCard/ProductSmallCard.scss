@@ -2,49 +2,48 @@
 @use "../../styles/variables.scss" as v;
 
 .product-small-card {
-    display: flex;
-    align-items: center;
-    padding: v.$padding-4;
-    border-radius: 8px;
-    &:hover {
-      cursor: pointer;
-      opacity: 0.8;
-    }
+  display: flex;
+  align-items: center;
+  padding: v.$padding-4;
+  border-radius: 8px;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
   }
-  
-  .product-image-container {
-    width: 80px;
-    height: 80px;
-    overflow: hidden;
-    border-radius: 8px;
+}
 
-    margin-right: v.$margin-3 + 2;
-  }
-  
-  .product-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .product-details {
-    flex: 1;
-  }
-  
-  .product-title {
-    font-size: v.$font-size-sm;
-    font-weight: bold;
-    margin-bottom: v.$margin-1 - 1;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    max-width: 185px;
-    text-overflow: ellipsis;
-  }
-  
-  .product-price {
-    font-size: v.$font-size-s;
-    color: c.$red-price;
-  }
-  
+.product-image-container {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 8px;
+
+  margin-right: v.$margin-3 + 2;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-details {
+  flex: 1;
+}
+
+.product-title {
+  font-size: v.$font-size-sm;
+  font-weight: bold;
+  margin-bottom: v.$margin-1 - 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  max-width: 185px;
+  text-overflow: ellipsis;
+}
+
+.product-price {
+  font-size: v.$font-size-s;
+  color: c.$red-price;
+}

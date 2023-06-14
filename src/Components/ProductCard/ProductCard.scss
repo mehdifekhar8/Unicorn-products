@@ -31,7 +31,7 @@
     margin-bottom: v.$margin-2;
     color: c.$black;
     position: relative;
-    z-index: 2; 
+    z-index: 2;
 
     @media screen and (max-width: 1200px) {
       font-size: v.$font-size-lg;
@@ -51,7 +51,7 @@
     text-align: center;
     color: c.$black;
     width: 100%;
-    z-index: 1; 
+    z-index: 1;
 
     @media screen and (max-width: 768px) {
       padding: v.$padding-4;
@@ -65,13 +65,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(
-      255,
-      255,
-      255,
-      0.8
-    ); 
-    z-index: -1; 
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: -1;
   }
 
   .product-stars {
