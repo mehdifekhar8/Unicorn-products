@@ -1,0 +1,23 @@
+@use "../../styles/colors.scss" as c;
+@use "../../styles/variables.scss" as v;
+
+.home {
+  display: flex;
+  justify-content: center;
+}
+
+.products-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: c.$gray-lighter;
+  padding: v.$padding-18 - 4 85px;
+  @media screen and (max-width: 968px) {
+    padding: 0 v.$padding-3;
+  }
+}
+.news-container {
+  background-color: c.$gray-lighter;
+  display: flex;
+  justify-content: center;
+}

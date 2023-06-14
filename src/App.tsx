@@ -1,11 +1,7 @@
-import React from 'react';
+import Products from "./Pages/Products/Products";
 
 function App() {
-  return (
-    <div className="container">
-      This is React typescript starter pack with SCSS!!!
-    </div>
-  );
+  return <Products></Products>;
 }
 
 export default App;

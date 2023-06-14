@@ -1,0 +1,64 @@
+@use "../../styles/colors.scss" as c;
+@use "../../styles/variables.scss" as v;
+
+.slider {
+  width: 100%;
+  padding: v.$padding-5;
+  background-color: c.$gray-lighter;
+  border-radius: 8px;
+  max-width: 300px;
+  margin-bottom: v.$margin-2;
+}
+
+.slider-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: v.$margin-2;
+}
+
+.slider-control-left,
+.slider-control-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: c.$white;
+  border-radius: 50%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.slider-range {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.slider-text {
+  font-size: v.$font-size-sm;
+  font-weight: 400;
+  color: c.$black;
+}
+.slider-price {
+  font-size: v.$font-size-xl;
+  font-weight: 700;
+  margin-bottom: v.$margin-3 + 2;
+  color: c.$black;
+}
+
+.slider-price-range {
+  font-size: v.$font-size-sm;
+  font-weight: 400;
+  color: c.$black;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top:  v.$margin-3 + 2;
+  align-items: center;
+  margin-bottom: v.$margin-2;
+}

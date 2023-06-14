@@ -1,0 +1,25 @@
+@use "../../styles/colors.scss" as c;
+@use "../../styles/variables.scss" as v;
+
+.custom-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: v.$padding-3 v.$padding-5;
+  border: none;
+  border-radius: 8px;
+  font-size: v.$font-size-sm;
+  font-weight: bold;
+  background-color: c.$red;
+  color: c.$white;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: c.$red-hover;
+}
+
+.button-icon {
+  margin-left: 2px;
+  margin-right: 2px;
+}

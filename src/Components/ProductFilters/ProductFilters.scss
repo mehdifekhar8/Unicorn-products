@@ -1,0 +1,19 @@
+@use "../../styles/colors.scss" as c;
+@use "../../styles/variables.scss" as v;
+
+.custom-search{
+    border: 1px solid c.$black;
+border-radius: 4px;
+width: 100%;
+background-color: transparent;
+margin-top: v.$margin-5;
+margin-bottom: v.$margin-9;
+}
+.category-container{
+   margin-top:  v.$margin-10 + 1;
+   margin-bottom:  v.$margin-14 + 7;
+
+}
+.product-filters {
+  width: 300px;
+}

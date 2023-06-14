@@ -1,0 +1,36 @@
+@use "../../styles/colors.scss" as c;
+@use "../../styles/variables.scss" as v;
+
+.product-list-container {
+  background: c.$gray-lighter;
+  padding: v.$padding-7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+ 
+  @media screen and (max-width: 968px) {
+    padding: v.$padding-3;
+  }
+
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+   
+    @media screen and (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+    
+  }
+
+  .load-more-button {
+    margin-top: v.$margin-14 + 7;
+    height: 56px;
+    width: 121px;
+    
+    @media screen and (max-width: 480px) {
+      margin-top:  v.$margin-4;
+    }
+  }
+}

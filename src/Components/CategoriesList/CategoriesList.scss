@@ -1,0 +1,30 @@
+@use "../../styles/colors.scss" as c;
+
+@use "../../styles/variables.scss" as v;
+
+.title {
+  font-weight: 700;
+  font-size: v.$font-size-xl;
+  color: c.$black;
+  margin-bottom: v.$margin-6;
+}
+.list {
+  font-weight: 700;
+  font-size: v.$font-size-sm;
+  display: flex;
+  text-transform: capitalize;
+  justify-content: space-between;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  &-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+
+.category-container {
+  max-width: 290px;
+}
