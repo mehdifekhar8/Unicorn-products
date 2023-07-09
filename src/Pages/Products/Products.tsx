@@ -4,6 +4,7 @@ import ProductFilters from "../../Components/ProductFilters/ProductFilters";
 import ProductList from "../../Components/ProductList/ProductList";
 import JoinNewsletter from "../../Components/JoinNewsLetter/JoinNewsLetter";
 import Footer from "../../Components/Layout/Footer/Footer";
+import { useMediaQuery } from "react-responsive";
 
 import "./Products.scss";
 
@@ -30,3 +31,10 @@ function Home() {
 }
 
 export default Home;
+
+export const FromMobileSmall: React.FC<{ children: React.ReactElement }> = ({
+  children,
+}) => {
+  const isFromMobileSmall = useMediaQuery({ minWidth: 576 });
+  return isFromMobileSmall ? children : null;
+};

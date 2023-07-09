@@ -12,8 +12,13 @@
   justify-content: space-between;
   background-color: c.$gray-lighter;
   padding: v.$padding-18 - 4 85px;
-  @media screen and (max-width: 968px) {
+  @media screen and (max-width: v.$max-breakpoint-lg) {
     padding: 0 v.$padding-3;
+  }
+  @media screen and (max-width: 576px) {
+    padding: 0 v.$padding-3;
+    flex-direction: column;
+    align-items: center;
   }
 }
 .news-container {

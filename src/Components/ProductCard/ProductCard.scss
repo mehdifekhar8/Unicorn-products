@@ -9,15 +9,15 @@
   border-radius: 6px;
   overflow: hidden;
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: v.$max-breakpoint-xl) {
     width: 100%;
     height: auto;
     max-width: 320px;
-    max-height: 380px;
+    height: 380px;
   }
-  @media screen and (max-width: 968px) {
+  @media screen and (max-width: v.$max-breakpoint-lg) {
     max-width: 280px;
-    max-height: 320px;
+    height: 320px;
   }
 
   .product-card-title {
@@ -33,7 +33,7 @@
     position: relative;
     z-index: 2;
 
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: v.$max-breakpoint-xl) {
       font-size: v.$font-size-lg;
     }
   }
@@ -53,7 +53,7 @@
     width: 100%;
     z-index: 1;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: v.$max-breakpoint-md) {
       padding: v.$padding-4;
     }
   }
@@ -73,7 +73,7 @@
     font-size: v.$font-size-sm;
     margin-bottom: v.$margin-2;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: v.$max-breakpoint-md) {
       font-size: v.$font-size-s;
     }
   }
@@ -84,7 +84,7 @@
     font-weight: 400;
     color: c.$gray-light;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: v.$max-breakpoint-md) {
       font-size: v.$font-size-xs;
     }
   }
@@ -94,7 +94,7 @@
     font-size: v.$font-size-sm;
     color: c.$red-price;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: v.$max-breakpoint-md) {
       font-size: v.$font-size-s;
     }
   }

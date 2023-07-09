@@ -11,7 +11,7 @@
   background-color: c.$white;
   padding: v.$padding-7;
   margin: v.$margin-9 v.$margin-16 160px v.$margin-16;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: v.$max-breakpoint-md) {
     height: 600px;
     margin: v.$margin-9 v.$margin-4 160px v.$margin-4;
   }

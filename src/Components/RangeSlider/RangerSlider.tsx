@@ -47,7 +47,7 @@ const RangeSlider: React.FC<SliderProps> = ({ priceRange, onChange }) => {
                 <div className={"row"}>
 
         <span className="slider-text">Range</span>
-        <div className="slider-price-range">{priceRange.join(" - ")}</div>
+        <div className="slider-price-range">{"$"+ priceRange[0] + "-$"+priceRange[1]}</div>
         </div>
       </div>
     </div>
